@@ -1,0 +1,16 @@
+{
+  "hyperparameters": {
+    "n_estimators": 103,
+    "max_depth": 7,
+    "learning_rate": 0.09033775094656361,
+    "subsample": 0.8645035840204937,
+    "colsample_bytree": 0.8398892426801621,
+    "min_child_weight": 2,
+    "reg_alpha": 1.683416412018213e-05,
+    "reg_lambda": 1.1036250149900698e-07,
+    "gamma": 0.32218907673802705
+  },
+  "score": 34.666666666666664,
+  "run_name": "max_v3_20260214_094331",
+  "saved_at": "2026-02-14T10:13:03.930842"
+}

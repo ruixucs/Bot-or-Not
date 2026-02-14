@@ -1,0 +1,16 @@
+{
+  "hyperparameters": {
+    "n_estimators": 680,
+    "max_depth": 5,
+    "learning_rate": 0.226995,
+    "subsample": 0.899016,
+    "colsample_bytree": 0.903030,
+    "min_child_weight": 2,
+    "reg_alpha": 0.000205,
+    "reg_lambda": 0.000004,
+    "gamma": 4.989547
+  },
+  "score": 86.0,
+  "run_name": "bot_detector_py_original",
+  "saved_at": "2026-02-14T00:00:00"
+}

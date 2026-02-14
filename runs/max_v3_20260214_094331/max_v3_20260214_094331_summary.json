@@ -1,0 +1,44 @@
+{
+  "run_name": "max_v3_20260214_094331",
+  "timestamp": "20260214_094331",
+  "total_features": 147,
+  "optuna_enabled": true,
+  "optuna_n_trials": 60,
+  "optuna_inner_folds": 3,
+  "cross_validation": {
+    "train_30_test_32": {
+      "lang": "English",
+      "score": 226,
+      "threshold": 0.75
+    },
+    "train_32_test_30": {
+      "lang": "English",
+      "score": 251,
+      "threshold": 0.3
+    },
+    "train_31_test_33": {
+      "lang": "French",
+      "score": 102,
+      "threshold": 0.5
+    },
+    "train_33_test_31": {
+      "lang": "French",
+      "score": 98,
+      "threshold": 0.5
+    }
+  },
+  "final_thresholds": {
+    "en": 0.525,
+    "fr": 0.5
+  },
+  "optuna_best_scores": {
+    "train_30_test_32": {
+      "best_value": 85.33,
+      "n_trials": 60
+    },
+    "train_31_test_33": {
+      "best_value": 34.67,
+      "n_trials": 60
+    }
+  }
+}

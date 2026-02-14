@@ -1,0 +1,12 @@
+============================================================
+RUN: max_v3_20260214_042917
+LOG: C:\Users\XuRui\Downloads\Bot-or-Not-main\Bot-or-Not-main\runs\max_v3_20260214_042917\max_v3_20260214_042917.log
+DIR: C:\Users\XuRui\Downloads\Bot-or-Not-main\Bot-or-Not-main\runs\max_v3_20260214_042917
+============================================================
+
+GPU available: True
+GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+Traceback (most recent call last):
+  File "C:\Users\XuRui\Downloads\Bot-or-Not-main\Bot-or-Not-main\max.py", line 112, in <module>
+    print(f"GPU Memory: {torch.cuda.get_device_properties(0).total_mem / 1024**3:.1f} GB")
+AttributeError: 'torch._C._CudaDeviceProperties' object has no attribute 'total_mem'. Did you mean: 'total_memory'?
