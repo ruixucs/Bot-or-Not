@@ -117,7 +117,6 @@ sentence-transformers, transformers, torch
 ### Usage
 
 ```bash
-conda activate xurui-clean
 python max.py
 ```
 
@@ -161,7 +160,6 @@ Supports both English and French solicitation pattern matching.
 ### Usage
 
 ```bash
-conda activate xurui-clean
 python add_engagement_bots.py
 ```
 
@@ -178,3 +176,4 @@ DATASET_FILES = {
 }
 DETECTION_DIR = os.path.join("runs", "max_v3_20260214_131317")
 ```
+
